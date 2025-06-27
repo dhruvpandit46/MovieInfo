@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🎬 Movie Search App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎥 Movie & TV Show Search</h1>
+
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search movies..." />
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <div id="results" class="results-container">
+      <!-- Movie cards will be injected here -->
+    </div>
+  </div>
+
+  <!-- Movie Details Modal -->
+  <div id="movieModal" class="modal hidden">
+    <div class="modal-content">
+      <span id="closeModal" class="close">&times;</span>
+      <img id="modalPoster" src="" alt="Movie Poster" />
+      <h2 id="modalTitle"></h2>
+      <p><strong>Rating:</strong> <span id="modalRating"></span></p>
+      <p><strong>Genre:</strong> <span id="modalGenre"></span></p>
+      <p><strong>Released:</strong> <span id="modalReleased"></span></p>
+      <p><strong>Runtime:</strong> <span id="modalRuntime"></span></p>
+      <p><strong>Actors:</strong> <span id="modalActors"></span></p>
+      <p><strong>Plot:</strong> <span id="modalPlot"></span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
