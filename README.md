@@ -107,14 +107,6 @@ The application provides a simple, responsive interface for quickly discovering 
 
 ---
 
-## 📱 Mobile View
-
-<p align="center">
-<img src="images/mobile.png" width="50%">
-</p>
-
----
-
 # 🚀 Live Demo
 
 https://dhruvpandit46.github.io/MovieInfo/
